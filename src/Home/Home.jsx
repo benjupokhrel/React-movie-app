@@ -157,7 +157,7 @@ const Home = () => {
                 {error}
               </motion.div>
             )}
-            <MovieCard title="Popular on CineAmaya" movies={popularMovies} />
+            <MovieCard title="Popular on Movieapp" movies={popularMovies} />
             <MovieCard title="Top Rated Gems" movies={topRatedMovies} />
             <MovieCard title="Horror Nights" movies={horrorMovies} />
             <MovieCard title="Sci-Fi Journeys" movies={sciFiMovies} />
