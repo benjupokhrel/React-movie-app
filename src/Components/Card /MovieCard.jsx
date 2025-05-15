@@ -19,7 +19,7 @@ const MovieCard = ({ movie, movies, title }) => {
   };
 
   const handleSinglePage = (movieId) => {
-    navigate(`/movie/${movieId}`); // Updated to match App.jsx route
+    navigate(`/movie/${movieId}`); 
     console.log("Clicked movie ID:", movieId);
   };
 
